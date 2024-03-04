@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda Telefonica</h1>
+        </header>
+        <form id="agenda">
+            <input id="nome" type="text" placeholder="Nome da Pessoa" required>
+            <input id="telefone" type="tel" placeholder="Numero da Pessoa" required maxlength="11">
+            <button type="submit">Adicionar</button>
+        </form>
+        <div class="lista">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
